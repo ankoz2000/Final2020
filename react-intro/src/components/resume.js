@@ -11,7 +11,7 @@ class MyComponent extends React.Component {
     }
   
     componentDidMount() {
-      fetch("http://localhost:3000")
+      fetch("/scr/curl.php")
         .then(res => res.json())
         .then(
           (result) => {
@@ -31,20 +31,31 @@ class MyComponent extends React.Component {
   
     render() {
       const { error, isLoaded, items } = this.state;
-      if (error) {
+/*      if (error) {
         return <div>Ошибка: {error.message}</div>;
       } else if (!isLoaded) {
         return <div>Загрузка...</div>;
-      } else {
+      } else {*/
         return (
-          <ul>
-            {items.map(item => (
-              <li key={item.id}>
-                {item.name} {item.desc}
-              </li>
-            ))}
-          </ul>
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item">Java разработчик</li>
+              <li class="list-group-item">Тестировщик</li>
+              <li class="list-group-item">Инженер</li>
+              <li class="list-group-item">Дизайнер</li>
+              <li class="list-group-item">Бэкенд</li>
+            </ul>
+            <ul>
+              {items.map(item => (
+                <li key={item.id}>
+                  {item.name} {item.desc}
+                </li>
+              ))}
+            </ul>
+          </div>
         );
-      }
+      //}
     }
   }
+
+  export default MyComponent;

@@ -1,8 +1,9 @@
 import './App.css';
-import SkillsForm from './form.js'
+import SkillsForm from '../components/form.js'
 
 function App() {
   return (
+    
     <div>
       <SkillsForm />
     </div>
