@@ -49,15 +49,16 @@ class SearchKeyWorld
 		$keywords = $this->getKeywords();
 
 		foreach ($summaries as $link => $resume) {
+			$subject = $resume;
 			for ($i = 0; $i < count($keywords); $i++) {
 
 				$search = $keywords[$i];
 				$replace = '<span style="font-size: 200%; font-family: monospace; background: lightgreen">' . $search . '</span>';
-				if ($i === 0) {
-					$subject = $resume;
-				} else {
+//				if ($i === 0) {
+
+				/*} else {
 					$subject = $query;
-				}
+				}*/
 
 				$query = str_ireplace($search, $replace, $subject, $count);
 

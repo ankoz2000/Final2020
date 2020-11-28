@@ -75,8 +75,10 @@ function arrayResume($content)
 }
 
 //точка входа
-$url = 'https://spb.hh.ru/search/resume?exp_period=all_time&logic=normal&pos=full_text&fromSearchLine=true&schedule=fullDay&clusters=True&area=2&order_by=relevance&no_magic=False&ored_clusters=True&st=resumeSearch&text=java';
-$keywords = ['SQL', 'Java', 'MySQL', 'REST'];
+$strSearch = $_GET['text'] = 'java';
+$url = 'https://spb.hh.ru/search/resume?gender=unknown&exp_period=all_time&logic=normal&pos=full_text&fromSearchLine=true&clusters=True&order_by=relevance&no_magic=False&ored_clusters=True&st=resumeSearch&text='
+	. $strSearch;
+$keywords = ['SQL', 'Java'];
 
 //получаем весь контент страницы
 $content = curlLoad($url, $cash = 3600);
@@ -86,4 +88,6 @@ $resumeArray = arrayResume($content);
 $searchKeyWorld = new SearchKeyWorld($resumeArray,$keywords);
 $key = $searchKeyWorld->keywords();
 
-print_r($key);
+foreach ($key as $resume){
+	echo $resume . ' < br><hr > ';
+}
