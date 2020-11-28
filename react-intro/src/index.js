@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './screens/App';
-import MyComponent from './components/resume.js'
+import MyComponent from './components/resume.js';
 import SkillsForm from './components/form';
 
 ReactDOM.render(

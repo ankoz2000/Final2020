@@ -44,22 +44,27 @@ class SkillsForm extends React.Component {
         const id = parent.id;
         console.log("Clickable-Elem ID: ", id);
         console.log("skills-state before: ", this.state.skills);
-        const skills = this.state.skills;
-        skills.filter((el) => {
-            console.log("IndexOf: ", this.state.skills.indexOf(el));
-            return parseInt(this.state.skills.indexOf(el) !== parseInt(id));
+        if (this.state.skills.length > 0) {
+        const skill = this.state.skills.filter((el) => {
+            console.log(parseInt(this.state.skills.indexOf(el)) !== parseInt(id));
+            return (parseInt(this.state.skills.indexOf(el)) !== parseInt(id));
         });
-        console.log("skills-state after: ", skills);
+        console.log("skills-state after: ", skill);
         this.setState({
-            skills: skills
+            skills: this.state.skills
         });
+    } else {
+        this.setState({
+            skills: []
+        });
+    }
         this.setState({
             fields: []
         });
         this.setState({
             fieldsCount: 0
         });
-        skills.forEach(elem => {
+        this.state.skills.forEach(elem => {
             console.log("ELEM: ", elem);
             this.setState({
                 fields: [...this.state.fields, this.addField(elem)]
@@ -68,7 +73,10 @@ class SkillsForm extends React.Component {
     event.preventDefault();
     }
     render() {
-        const fields = this.state.fields
+        let fields = []
+        this.state.skills.forEach((elem) => {
+            fields.push(this.state.fields);
+        })
 
         return (
             <form onSubmit={this.handleSubmit}>
