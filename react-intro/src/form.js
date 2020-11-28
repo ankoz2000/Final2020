@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './styles/main.js'
 //  import ReactDOM from 'react-dom';
 
 class SkillsForm extends React.Component {
@@ -30,7 +31,7 @@ class SkillsForm extends React.Component {
         });
         
         return (
-            <div id={this.state.fieldsCount}>
+            <div id={this.state.fieldsCount} className={style.place}>
                 <span>{skill}</span>
                 <button className="delete" type="submit" onClick={this.handleDelete}><img src='./images/png-computer-icons-vector-graphics-image-icon-design-i.jpg' alt=""></img></button>
             </div>
@@ -45,6 +46,9 @@ class SkillsForm extends React.Component {
         this.setState({
             fields: this.state.fields.filter(el => el.id === id)
         });
+        this.setState({
+            fieldsCount: this.state.fieldsCount - 1
+        });
     }
     render() {
         const fields = []
@@ -52,14 +56,14 @@ class SkillsForm extends React.Component {
             fields.push(this.state.fields[i]);
           }
         return (
-            <div>
+            <div style={style.main}>
                 <form onSubmit={this.handleSubmit}>
                 <label>
                 <input type="text" id="word" placeholder="Ввод ключевых слов" />
                 </label>
                 <button type="submit" className="submitButton">Найти</button>
                 </form>
-                <div id="skills">
+                <div id="skills" style={style.place}>
                     {fields}
                 </div>
             </div>
