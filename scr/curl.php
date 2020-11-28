@@ -56,8 +56,25 @@ $pattern = '~<div data-qa="resume-serp__results-search">.+<div class="bloko-gap 
 preg_match($pattern, $content, $matches);
 
 $innerContent = $matches[0];
-print_r($innerContent);
-preg_match_all('~class="resume-search-item__content-wrapper".*?data-qa="resume-serp__resume-additional">\s*</div>\s*</div>\s*</div>~is',
-	$innerContent, $a);
-var_dump(count($a[0]));
-print_r($a);
+//print_r($innerContent);
+preg_match_all('~href="(.*)">(.*)</a>~isU',
+	$innerContent, $links);
+
+$viewLink = $links[1];//ссылка на резюме
+$viewName = $links[2];//название
+$summaries = [];
+
+for ($i = 0; $i < count($viewLink); $i++) {
+	echo '<a href="https://hh.ru' . $viewLink[$i] . '">' . $viewName[$i] . '</a><br>';
+	//парсинг резюме по ссылкам
+	$summarys_links = curlLoad('https://spb.hh.ru' . $viewLink[$i], $cash = 3600);
+	$pattern = '~<div class="resume-applicant">(?P<resume>.*)?</div>\s*</div>\s*</div>\s*</div></div>\s*</div>\s*</div>\s*</div>\s*</div>\s*</div>~isU';
+	preg_match($pattern, $summarys_links, $matches);
+	$summaries['https://spb.hh.ru' . $viewLink[$i]] = $matches['resume'];
+}
+echo "<pre>";
+print_r($summaries);
+echo "</pre>";
+
+
+
