@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './styles/main.js'
+import MyComponent from './resume.js'
 //  import ReactDOM from 'react-dom';
 
 class SkillsForm extends React.Component {
@@ -66,6 +67,7 @@ class SkillsForm extends React.Component {
                 <div id="skills" style={style.place}>
                     {fields}
                 </div>
+                <MyComponent />
             </div>
             );
         }
