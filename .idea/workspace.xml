@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6152f403-371d-4922-90c1-a4c22e87b0ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scr/searchKeyWords.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scr/cash/035ae1b3f53584da911cdcda03fd9b8c" beforeDir="false" afterPath="$PROJECT_DIR$/scr/cash/035ae1b3f53584da911cdcda03fd9b8c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scr/cash/0e740eb0753ed5ed619cfeea24976815" beforeDir="false" afterPath="$PROJECT_DIR$/scr/cash/0e740eb0753ed5ed619cfeea24976815" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scr/cash/0e9da7c62686d7698c1428c112ba80b3" beforeDir="false" afterPath="$PROJECT_DIR$/scr/cash/0e9da7c62686d7698c1428c112ba80b3" afterDir="false" />
@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/scr/cash/f9c009b4f87fc3e2eb986a0897ad952c" beforeDir="false" afterPath="$PROJECT_DIR$/scr/cash/f9c009b4f87fc3e2eb986a0897ad952c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scr/cash/ff82bea6d84beec783bd5b0843b8883d" beforeDir="false" afterPath="$PROJECT_DIR$/scr/cash/ff82bea6d84beec783bd5b0843b8883d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scr/curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/scr/curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/searchKeyWords.php" beforeDir="false" afterPath="$PROJECT_DIR$/scr/searchKeyWords.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606525682855</updated>
       <workItem from="1606525684791" duration="12061000" />
-      <workItem from="1606537838668" duration="3310000" />
+      <workItem from="1606537838668" duration="7124000" />
     </task>
     <servers />
   </component>
@@ -93,5 +94,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/scr/curl.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
