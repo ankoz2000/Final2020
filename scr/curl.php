@@ -50,7 +50,6 @@ function curlLoad($url, $cash = 0)
 	return $content;
 }
 
-
 function arrayResume($content)
 {
 	$pattern = '~<div data-qa="resume-serp__results-search">.+<div class="bloko-gap bloko-gap_top">~isU';
@@ -62,32 +61,53 @@ function arrayResume($content)
 	$viewName = $links[2];//название
 	$summaries = [];
 
+	echo '<div class="list-vacansion">';
+	echo '<p>Найдено ' . count($viewLink) . ' вакансий.</p><ol>';
 	for ($i = 0; $i < count($viewLink); $i++) {
-		echo '<a href="https://hh.ru' . $viewLink[$i] . '">' . $viewName[$i] . '</a><br>';
+		echo '<li><a href="https://hh.ru' . $viewLink[$i] . '">' . $viewName[$i] . '</a></li>';
 		//парсинг резюме по ссылкам
 		$summaries_links = curlLoad('https://spb.hh.ru' . $viewLink[$i], $cash = 3600);
 		$pattern = '~<div class="resume-applicant">(?P<resume>.*)?</div>\s*</div>\s*</div>\s*</div></div>\s*</div>\s*</div>\s*</div>\s*</div>\s*</div>~isU';
 		preg_match($pattern, $summaries_links, $matches);
 		$summaries['https://spb.hh.ru' . $viewLink[$i]] = $matches['resume'];
 	}
-
+	echo '</ol>';
+	echo '</div>';
 	return $summaries;
 }
 
 //точка входа
-$strSearch = $_GET['text'] = 'java';
-$url = 'https://spb.hh.ru/search/resume?gender=unknown&exp_period=all_time&logic=normal&pos=full_text&fromSearchLine=true&clusters=True&order_by=relevance&no_magic=False&ored_clusters=True&st=resumeSearch&text='
+$strSearch = '';
+if (!empty($_GET['text'])){
+	$strSearch = $_GET['text'];
+	$strKey = $_GET['keyWords'];
+}
+
+if (strpos($strSearch, ' ') !== false) {
+	$strSearch = str_ireplace(" ", "+", $strSearch);
+}
+
+
+if (empty($_GET['text'])) {
+	return;
+}
+$url = 'https://spb.hh.ru/search/resume?clusters=True&area=2&order_by=relevance&logic=normal&pos=position&exp_period=all_time&no_magic=False&ored_clusters=True&st=resumeSearch&text='
 	. $strSearch;
-$keywords = ['SQL', 'Java'];
+
+$strKey = str_ireplace(', ', ',' , $strKey);
+$keywords = explode(',', $strKey);
 
 //получаем весь контент страницы
 $content = curlLoad($url, $cash = 3600);
 //получаем БД резюме по отдельности в массиве
 $resumeArray = arrayResume($content);
 
-$searchKeyWorld = new SearchKeyWorld($resumeArray,$keywords);
+$searchKeyWorld = new SearchKeyWorld($resumeArray, $keywords);
 $key = $searchKeyWorld->keywords();
 
-foreach ($key as $resume){
-	echo $resume . ' < br><hr > ';
+foreach ($key as $resume => $text) {
+	echo '<header class="resume">';
+		echo '<a class="link-resume" href="'.$resume . '">Данное резюме</a>';
+		echo $text;
+	echo '</header>';
 }
