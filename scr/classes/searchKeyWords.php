@@ -10,7 +10,6 @@ class SearchKeyWorld
 		$this->summaries = $summaries;
 		$this->keywords = $keywords;
 	}
-
 	/**
 	 * @return array
 	 */
@@ -26,9 +25,21 @@ class SearchKeyWorld
 	{
 		return $this->keywords;
 	}
+    private function workVarible(string $strKey): array
+    {
+        //формируем массив ключей для поиска keywords
+        $strKey = str_ireplace(', ', ',', $strKey);
+        $keywords = explode(',', $strKey);
+        if ($keywords === "") {
+            return [];
+        } else {
+            return $keywords;
+        }
+    }
 
 	function keywords()
 	{
+
 		$summaries = $this->getSummaries();
 		$keywords = $this->getKeywords();
 

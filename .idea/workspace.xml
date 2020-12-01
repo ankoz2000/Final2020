@@ -2,160 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6152f403-371d-4922-90c1-a4c22e87b0ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scr/View/bottom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/View/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/00736ae14d09b738e3fab2bb67ffecff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/1b2f2b331ce5a62c4e0d1a8381eda2a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/4b70fbf8294740f9cc2b9020a4347549" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/6cee28e7524aec6ee6395def7ce200f0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/774e8973147d2ca7e810e903c18db2a2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/85e314ea26714c3d032bc645efc5b08b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/8ba3785ad7188eedb2ac85ccade51c37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/d50a9d50f79c301142add947ef5c4cf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/ec57f10819a150ee3085cc6e2c8dbc1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash/f64c9899ac033f1a7607c8d92e65bb68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/View/listVacantion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/classes/curl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/mainPoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/035ae1b3f53584da911cdcda03fd9b8c" beforeDir="false" afterPath="$PROJECT_DIR$/cash/035ae1b3f53584da911cdcda03fd9b8c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/15cf603d0975fe04b053372edf006c5a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/1b7ab4840d73026638dab73ce8f10f2c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/1e70564bff18a9e8ae988393308bd0d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/3e1930833967b25d19cd0432c61647a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/4570ff5947e633ef7f30a8ac639de31e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/4914971e8283f52176e956d8d050d2d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/017050855cbd1e4bb47c6f37945bd023" beforeDir="false" afterPath="$PROJECT_DIR$/cash/017050855cbd1e4bb47c6f37945bd023" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/0e740eb0753ed5ed619cfeea24976815" beforeDir="false" afterPath="$PROJECT_DIR$/cash/0e740eb0753ed5ed619cfeea24976815" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/0e9da7c62686d7698c1428c112ba80b3" beforeDir="false" afterPath="$PROJECT_DIR$/cash/0e9da7c62686d7698c1428c112ba80b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/1644f4edcdbd569d9db9bb57ea56f1d2" beforeDir="false" afterPath="$PROJECT_DIR$/cash/1644f4edcdbd569d9db9bb57ea56f1d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/31586fd9049013eb0e3aa55ffc7defc5" beforeDir="false" afterPath="$PROJECT_DIR$/cash/31586fd9049013eb0e3aa55ffc7defc5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/353f62a881251efe33e509b1b7813061" beforeDir="false" afterPath="$PROJECT_DIR$/cash/353f62a881251efe33e509b1b7813061" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cash/574fa7a4c7076d6a6ea6c68861cba7f4" beforeDir="false" afterPath="$PROJECT_DIR$/cash/574fa7a4c7076d6a6ea6c68861cba7f4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/63d0ca195ef5883909b2b2d31403dde1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/64ce5004703edf8bc38bcc7e868a1f5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/690fc8fc91713b31594ffdefadcc80a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/6973b88798ec5a72a0753846cf0a9a31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/6bfb0b491c656a6e2fcae55da28a6121" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/6d02a3dad6f97ce999eb39b7030d648f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/7bd2d1dd7ddf416517660238261e3941" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/8ca0070a67c16dfc40a6c3a9a09f2a9e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/9135619c0db1ac9472b024a0d55091e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/92e43ed17d2999df78af8f1168c37a59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/96e1528a02ddaa9192f9b6bce8a61444" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/9ac5758c7e9466a8955a92e0cb146855" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/9fdda68fc7e0f27f331ac8b1c72f346b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cash/f4e9a5bffd1b50b9a71dc4ac0215fed9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/757c2242ded03eff0a47384b6522bc38" beforeDir="false" afterPath="$PROJECT_DIR$/cash/757c2242ded03eff0a47384b6522bc38" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/d0719345c6e17400d11c3db329ce24f8" beforeDir="false" afterPath="$PROJECT_DIR$/cash/d0719345c6e17400d11c3db329ce24f8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/f9c009b4f87fc3e2eb986a0897ad952c" beforeDir="false" afterPath="$PROJECT_DIR$/cash/f9c009b4f87fc3e2eb986a0897ad952c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash/fe700f50d35e900663639978e71853fb" beforeDir="false" afterPath="$PROJECT_DIR$/cash/fe700f50d35e900663639978e71853fb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/011d4f4e91cf84d3894337d78fc39cfe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/02ab7fe5e548c98d3033a2b230924a09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/035ae1b3f53584da911cdcda03fd9b8c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/0518e0ef5f4c6f49df4ae8b2564b3756" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/0659e9a2828f8e4b1c1c94a8704f9212" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/08937465528e5a9698799db0a9c324b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/0aa0ff0af0825fde0208d6a072cd50a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/0e740eb0753ed5ed619cfeea24976815" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/0e9da7c62686d7698c1428c112ba80b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/15cf603d0975fe04b053372edf006c5a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/161193c0bc2421bf98158b1ed1a5cb36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1680ed4cf85dc93efdc75f471ed65efc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1b7ab4840d73026638dab73ce8f10f2c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1c0b2fd74ef073327e134159be2bed2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1c39df8db91bec7f67e864caaec43b27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1e280cff579dc567dddc13741fb9a495" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1e70564bff18a9e8ae988393308bd0d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/1ec959dff39333d7239ba7b46ef0992e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/22b912d24937a23bfaf3439dc211ff10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/230dbfa06006056b71ab200e982d4f76" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/279ada36106958420572e451a00232fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/2efdedf2d6d022cf0281a0b1a2ff3ac5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/2fdff61c136c40b6396ea46edd49c0aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/3202c5c21e38e8e051701e964881c4d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/36790a6a9c8994d0f35dcb124e279921" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/371666e472b8df7e70af74c158a099c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/3cf283ba565c5998acf3466d35fe8dd2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/3db8dbbf43a6d29665d394ab39c09ef4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/3e1930833967b25d19cd0432c61647a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/3f80c6490c7c99e5718b4c3ead192788" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/44e52703a6f0551a9ebcf34a5835cbba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/45277b0e3636197af38acd5b72c54c40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/4570ff5947e633ef7f30a8ac639de31e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/4914971e8283f52176e956d8d050d2d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/4997fea17814822f89c33242c1952ee7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/4ca4d80860cb1d822961fc37ba71af84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/4e544e977d4f6b11c1fac8643a239707" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/524b0a1ed7b779c5f80e9770e18b253f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/543b272af76f72dbe186daec179cf604" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/574fa7a4c7076d6a6ea6c68861cba7f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/599b084190708f2ddd7a97903e2a74a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/5d7f2a034559aa8f62870f9d105d52b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/624ae36a1e44000ee40236ec4e1049db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/63d0ca195ef5883909b2b2d31403dde1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/64ce5004703edf8bc38bcc7e868a1f5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/65014b77ffec1a842411035430d9948e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6783e23af39a90a2047123b81b6bdfeb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/690fc8fc91713b31594ffdefadcc80a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6973b88798ec5a72a0753846cf0a9a31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/69b24da04c07e6deead2a474d3748833" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6afa316cf8119a1196a74439d5279697" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6bfb0b491c656a6e2fcae55da28a6121" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6c9d296aa10dfb5392c47e120e723302" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6d02a3dad6f97ce999eb39b7030d648f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/6e7269ddb3d58694b6d89b01fbd9f02e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/70fa5a70e303440de94d70e118772c7a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/71b07d1c35a822a2e11ed8afa57f6137" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/72732fa400a97ae35c4d0f49b0157d3f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/74d470d21d87c0ff5734f44e4faba484" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/74e0df8eef32ae74cd605e2aabd4344c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/757c2242ded03eff0a47384b6522bc38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/75a710c3e92059f6325e2873c55b5351" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/7628cffdeb069713ed6f5253d0a890ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/7bd2d1dd7ddf416517660238261e3941" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/7cbff98dac6a61401fe13fc37a1d5c35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/821f91d229899c248ee4e43d530686f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/834658f5594a0b65bf536cecdf69eac2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/867058ef4641b53afbd5084e71401731" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/87201da812d932c638537757b6872e87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/87b2caf514d97c214b84470cee145eec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/87c5e8b755e7b0406c7b8ffc27c60840" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/8ba3785ad7188eedb2ac85ccade51c37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/8ca0070a67c16dfc40a6c3a9a09f2a9e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/9135619c0db1ac9472b024a0d55091e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/92e43ed17d2999df78af8f1168c37a59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/95b97a6b5cf622af4dfa592be72922a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/95caecdc84cc3a6bf8e5b22bf797a1d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/9694c87ec59576d568b3f20006b78c65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/96e1528a02ddaa9192f9b6bce8a61444" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/97c8bcdb71b6dc62b4c91cf3a6fe7506" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/981d14e1b94aa770e4e44422f716b1b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/9ac5758c7e9466a8955a92e0cb146855" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/9b59eccfc86cb9769af071aac66a1dab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/a05b09f57d83a3ae3b0fb0e13e3e6e9c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/a5782056084774057ffe71fd30964689" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/a5b280b90c16c5ae2fb3f4982369cef5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/a65da1a12f27fe5b0141feb709f8d3cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/a8075b6adc197ec3317944d85b7aca61" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/ab75a01edf53d0969f8dc92fafb5399d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b129d424c68e7af295bf99c9a1301c78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b4060c0147ded12abc57d5eb8cb02953" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b56dc7e2482f36c8dc08181c26de0647" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b604e1fa4b54490bb50e68248d786e65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b65c4787b5341db7f072690393d5a054" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b7a0e19f7641fd0d050a443259e89076" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b8c2374d3705c54bb7e324ce680b3670" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/b8d68324192b913e67852e40463186e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/bae06ef1ed7296153296a94c7ad4a83e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/bae73eac20ef77464717c9c16e237262" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/bd36d83ad9ebd59d4d82d535de7baed9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/c497d31d74bcd1808eb9f49026cc00e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/cb45b726c9601cef992604df595b5182" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/cccc06615cf25b81b42ceb9c8cc1fdb2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/cce59073ba70b929ab738f01d08383aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/cfdf96cee37a06683448e995bc3424be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/d00fd89522f53f96cb2e3fe7856fc79f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/d114dae000dc5370397edee813e0a046" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/d6948d5bfa5970e86f75c32d13bcf517" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/d6efa659703840c6c27f39f272c12973" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/e8336d2460c9bb8749ab6c1d412f2243" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/e8596d9a86897da0d4fa9a963dc429b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/e8bbcc5a74cd6595dadb77a7f2af225a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/eb7a6514e02b02ccd050ba5979aa1978" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/ebabc61f35151dbfa6f1b7b4dce31ced" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/f27a0df2962e1c5bfbe5b6942bd68c5b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/f2e2e59790b824479d6557dbb7aa2130" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/f4e9a5bffd1b50b9a71dc4ac0215fed9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/f82df2c4e66cfca3ceaa0a646d1d2956" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/f9c009b4f87fc3e2eb986a0897ad952c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/fabef04b437c8f01632d1a8e819b94af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/fc68a9663268b83916870e7cc0c84393" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/fd046b11c39e2f2d9f02177b9ca713d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/fd55c58253b5b4ff881e39375233f740" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/fe9eeb4a26343e30c692c0c4f35aa923" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/cash/ff82bea6d84beec783bd5b0843b8883d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/scr/curl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/searchKeyWords.php" beforeDir="false" afterPath="$PROJECT_DIR$/scr/searchKeyWords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/curl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/searchKeyWords.php" beforeDir="false" afterPath="$PROJECT_DIR$/scr/classes/searchKeyWords.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +89,8 @@
       <updated>1606525682855</updated>
       <workItem from="1606525684791" duration="12061000" />
       <workItem from="1606537838668" duration="42994000" />
+      <workItem from="1606730535193" duration="1469000" />
+      <workItem from="1606832752049" duration="16974000" />
     </task>
     <servers />
   </component>
